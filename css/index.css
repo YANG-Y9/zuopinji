@@ -1,0 +1,550 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.6rem;
+    height:0.6rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/true.jpg");
+   position:relative;
+}
+.jianjie{
+  width:5.5rem;
+  height:2.76rem;
+  right:1rem;
+  top:30%;
+}
+.zhen{
+    width:3.17rem;
+    height:1.78rem;
+    right:0.4rem;
+    top:5.5rem;
+}
+.shixun{
+    widows: 0.7rem;
+    height:7.5rem;
+    bottom:0;
+    left:0.5rem;
+}
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+.page2{
+    background:url("../images/true.jpg") center center no-repeat;
+    background-size:cover;
+}
+.yangli{
+  widows:2.95rem;;
+  height:3.5rem;
+  left:0.6rem;
+  top:2.5rem;
+}
+.xinxi{
+    width:2.56rem;
+    height:1rem;
+    left:2.5rem;
+    top:1rem;
+}
+
+.busan{
+    width:2.26rem;
+    height:1.82rem;
+    right:0.6rem;
+    top:1.2rem;
+}
+.ziwo{
+  width:2.85rem;
+  height:0.68rem;
+  left:2.5rem;
+  top:7rem;
+}
+.ping{
+  width:6rem;
+  height:4rem;
+  left:0.75rem;
+  top:8rem;
+}
+.textContent{
+    position:absolute;
+    font-size:0.32rem;
+    font-family: monospace;
+    left:3.3rem;
+    top:2.5rem;
+    line-height:0.5rem;
+    color:#fff;
+}
+
+/* page3 */
+
+.page3{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page3>img{
+    position: absolute;
+}
+.zuopin{
+  width:5.5rem;
+  height:2.76rem;
+  right:1rem;
+  top:30%;
+}
+.page3 .xin{
+  width: 1.98rem;
+  height: 2.26rem;
+  left:5.5rem;
+  bottom:0;
+}
+
+/* 第4页 */
+.page4{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page4>img{
+    position: absolute;
+}
+.RIO1{
+  width:4rem;
+  height:5.5rem;
+  top: 1rem;
+  left:1.75rem;
+}
+.RIO2{
+  width:4rem;
+  height:5.5rem;
+  top:7rem;
+  left:1.75rem;
+}
+/* 第5页 */
+.page5{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page5>img{
+    position: absolute;
+}
+.bishengyuan{
+  width:4rem;
+  height:5.5rem;
+  top: 1rem;
+  left:1.75rem;
+}
+.naicha{
+  width:4rem;
+  height:5.5rem;
+  top:7rem;
+  left:1.75rem;
+}
+/* 第6页 */
+.page6{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page6>img{
+    position: absolute;
+}
+.xian{
+  width:4rem;
+  height:5.5rem;
+  top: 1rem;
+  left:1.75rem;
+}
+.xian2{
+  width:4rem;
+  height:5.5rem;
+  top:7rem;
+  left:1.75rem;
+}
+/* 第7页 */
+.page7{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page7>img{
+    position: absolute;
+}
+.dian{
+  width:5rem;
+  height:5rem;
+  top: 1rem;
+  left:1.15rem;
+}
+.ya{
+  width:5rem;
+  height:5rem;
+  top:7rem;
+  left:1.15rem;
+}
+/* 第8页 */
+.page8{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page8>img{
+    position: absolute;
+}
+.bawang{
+  width:4rem;
+  height:5.85rem;
+  top: 1rem;
+  left:1.75rem;
+}
+.wanglaoji{
+  width:6.5rem;
+  height:4.5rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第9页 */
+.page9{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page9>img{
+    position: absolute;
+}
+.oulaiya{
+  width:6.5rem;
+  height:3.5rem;
+  top:2rem;
+  left:0.5rem;
+}
+.rio{
+  width:6.5rem;
+  height:3.5rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第10页 */
+.page10{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page10>img{
+    position: absolute;
+}
+.f{
+  width:5.96rem;
+  height:5.52rem;
+  top:1.5rem;
+  left:1rem;
+}
+.g{
+  width:6.5rem;
+  height:5rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第11页 */
+.page11{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page11>img{
+    position: absolute;
+}
+.shuzi{
+  width:6.5rem;
+  height:4.5rem;
+  top:2rem;
+  left:0.5rem;
+}
+.style{
+  width:6.32rem;
+  height:3.51rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第12页 */
+.page12{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page12>img{
+    position: absolute;
+}
+.ren{
+  width:4rem;
+  height:5.85rem;
+  top:0.5rem;
+  left:1.8rem;
+}
+.feng{
+  width:4rem;
+  height:5.85rem;
+  top:6.5rem;
+  left:1.8rem;
+}
+/* 第13页 */
+.page13{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page13>img{
+    position: absolute;
+}
+.feng2{
+  width:4rem;
+  height:5.85rem;
+  top:0.5rem;
+  left:1.8rem;
+}
+.feng3{
+  width:4rem;
+  height:5.85rem;
+  top:6.5rem;
+  left:1.8rem;
+}
+/* 第14页 */
+.page14{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page14>img{
+    position: absolute;
+}
+.houlai{
+  width:6.5rem;
+  height:4.5rem;
+  top:1.5rem;
+  left:0.5rem;
+}
+.jinian{
+  width:6.5rem;
+  height:4.5rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第15页 */
+.page15{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page15>img{
+    position: absolute;
+}
+.legao{
+  width:6.5rem;
+  height:4.5rem;
+  top:1.5rem;
+  left:0.5rem;
+}
+.taideng{
+  width:6.5rem;
+  height:4.5rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第16页 */
+.page16{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page16>img{
+    position: absolute;
+}
+.lidong{
+  width:5rem;
+  height:5rem;
+  top: 1rem;
+  left:1.15rem;
+}
+.yang{
+  width:5rem;
+  height:5rem;
+  top:7rem;
+  left:1.15rem;
+}
+/* 第17页 */
+.page17{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page17>img{
+    position: absolute;
+}
+.dingzhi{
+  width:4rem;
+  height:5.85rem;
+  top:0.5rem;
+  left:1.8rem;
+}
+.y{
+  width:4rem;
+  height:5.85rem;
+  top:6.5rem;
+  left:1.8rem;
+}
+/* 第18页 */
+.page18{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page18>img{
+    position: absolute;
+}
+.qiang{
+  width:6.5rem;
+  height:4.5rem;
+  top:1.5rem;
+  left:0.5rem;
+}
+.tu{
+  width:4。96rem;
+  height:5.85rem;
+  top:6.5rem;
+  left:1rem;
+}
+/* 第19页 */
+.page19{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page19>img{
+    position: absolute;
+}
+.mingpian{
+  width:6.5rem;
+  height:4rem;
+  top:2rem;
+  left:0.5rem;
+}
+.mingpian2{
+  width:6.5rem;
+  height:4rem;
+  top:7.5rem;
+  left:0.5rem;
+}
+/* 第20页 */
+.page20{
+  position: relative;
+  background:url("../images/true.jpg");
+  background-size: 100% 100%;
+}
+.page20>img{
+    position: absolute;
+}
+.thanks{
+  width:6.28rem;
+  height:2.88rem;
+  left:1rem;
+  top:30%;
+}
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+  
+  @-webkit-keyframes fadeInUpBig {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 2000px, 0);
+      transform: translate3d(0, 2000px, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+
